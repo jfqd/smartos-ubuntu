@@ -1,25 +1,25 @@
 {
   "v": 2,
-  "uuid": "",
+  "uuid": "<image-uuid>",
   "owner": "",
-  "name": "ubuntu-1404",
-  "version": "20141203",
+  "name": "ubuntu-20.04",
+  "version": "<<date>>",
   "state": "active",
   "disabled": false,
   "public": true,
-  "published_at": "2014-12-03T09:10:00Z",
+  "published_at": "<<datetime>>",
   "type": "zvol",
   "os": "linux",
   "files": [
     {
-      "path": "ubuntu-14.04-server-cloudimg-amd64-disk1.dist.zvol.gz",
-      "sha1": "b9560a7ae286351834996c7639e790615723e15e",
-      "size": 244470450,
+      "path": "focal-server-cloudimg-amd64.dist.img.zvol.gz",
+      "sha1": "<sha1>",
+      "size": <image-size>,
       "compression": "gzip"
     }
   ],
-  "description": "Ubuntu 14.04 cloud image.",
-  "urn": "smartos:rsully:ubuntu-1404:20141203",
+  "description": "Ubuntu 20.04 cloud image.",
+  "urn": "smartos:jfqd:ubuntu-20.04:<<date>>",
   "requirements": {
     "networks": [
       {

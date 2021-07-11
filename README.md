@@ -25,7 +25,7 @@ Run the following on an Ubuntu server to produce the SmartOS image:
 
 ```
 sudo apt-get -y install git
-git clone https://github.com/RSully/smartos-ubuntu.git
+git clone https://github.com/jfqd/smartos-ubuntu.git
 cd smartos-ubuntu/
 bash 0-setup.sh 
 bash 1-prep.sh 
